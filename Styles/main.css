@@ -1,4 +1,5 @@
 @import url("https://mirinda-mewi.netlify.app/styles/main.css");
+@import url(/Styles/landing.css);
 * {
   box-sizing: border-box;
 }
@@ -25,32 +26,4 @@
 }
 .searchBox {
   width: 80%;
-}
-.heroImage {
-  background-image: linear-gradient(
-      rgba(139, 139, 139, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(/Assets/Images/kyotPeek.jpg);
-  height: calc(100vh - 20rem);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-.heroContent {
-  text-align: center;
-  position: absolute;
-  top: 20%;
-  padding-left: 2rem;
-  color: var(--snow);
-}
-.heroContent .btn-primary {
-  background-color: var(--snow);
-  border-color: var(--snow);
-  color: var(--darc);
-}
-.heroContent .btn-primary:hover {
-  background-color: var(--slight-gray);
-  border-color: var(--slight-gray);
 }
