@@ -1,0 +1,46 @@
+/* Grid layout */
+.pageContainer {
+  display: grid;
+  width: 100%;
+  grid-template-columns: [col1]20rem [col2]auto [col3];
+  grid-template-rows: calc(100vh - 4.8rem);
+}
+
+.filters {
+  background-color: var(--darc);
+  color: var(--snow);
+  padding: 1rem;
+}
+.filterHead {
+  display: flex;
+  justify-content: space-between;
+}
+.filters .btn {
+  font-size: initial;
+  cursor: pointer;
+  color: var(--snow);
+  text-decoration-color: var(--snow);
+}
+.filters .btn-link-dot {
+  text-decoration-style: solid;
+}
+.filters input {
+  accent-color: var(--snow);
+}
+.filters input[type="radio"],
+.filters input[type="checkbox"] {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.filters input[type="radio"] {
+  accent-color: var(--darc);
+}
+
+#myRange {
+  cursor: pointer;
+  width: 15rem;
+}
+.pageContent {
+  background-color: var(--success);
+}
