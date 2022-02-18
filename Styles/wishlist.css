@@ -12,7 +12,7 @@
   display: grid;
   grid-template-columns:
     4rem minmax(13rem, 1fr)
-    minmax(10rem, 1fr) 11rem minmax(10rem, 0.7fr);
+    minmax(10rem, 1fr) 11rem minmax(10rem, 0.6fr);
   grid-template-rows: 5rem;
   gap: 1rem;
 }
