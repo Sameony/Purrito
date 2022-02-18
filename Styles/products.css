@@ -1,4 +1,5 @@
 /* Grid layout */
+
 .pageContainer {
   display: grid;
   width: 100%;
@@ -6,10 +7,12 @@
   grid-template-rows: calc(100vh - 4.8rem);
 }
 
+/* aside filtering component */
+
 .filters {
   background-color: var(--darc);
-  color: var(--snow);
   padding: 1rem;
+  color: var(--snow);
 }
 .filterHead {
   display: flex;
@@ -36,11 +39,55 @@
 .filters input[type="radio"] {
   accent-color: var(--darc);
 }
-
 #myRange {
   cursor: pointer;
   width: 15rem;
 }
+/* Main product display page grid layout */
+
 .pageContent {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+  gap: 2rem;
+  overflow: auto;
+}
+
+/* card component */
+
+.productCard {
+  background-color: var(--darc);
+}
+.productCard .btn {
+  border-color: var(--snow);
+  font-size: 1.2rem;
+  padding: 0.4rem 0.7rem;
+  box-shadow: 0px 0px 4px 1px var(--slight-gray);
+}
+.productCard .priceContainer {
+  background-color: var(--snow);
+  color: var(--darc);
+}
+
+/* add to card button */
+
+.productCard .btn-success {
+  background-color: var(--light-success);
+  color: var(--snow);
+}
+.productCard .btn-success:hover {
   background-color: var(--success);
+  border-color: var(--success);
+  box-shadow: none;
+}
+/* wishlisht button */
+
+.productCard .btn-primary {
+  background-color: var(--light-caution);
+  color: var(--snow);
+}
+.productCard .btn-primary:hover {
+  background-color: var(--caution);
+  border-color: var(--caution);
+  box-shadow: none;
 }
