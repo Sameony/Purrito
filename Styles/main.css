@@ -2,6 +2,7 @@
 @import url(/Styles/products.css);
 @import url(/Styles/landing.css);
 @import url(/Styles/colors.css);
+@import url(/Styles/wishlist.css);
 * {
   box-sizing: border-box;
 }
