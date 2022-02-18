@@ -10,7 +10,7 @@
 /* aside filtering component */
 
 .filters {
-  background-color: var(--darc);
+  background-color: var(--blue-gray);
   padding: 1rem;
   color: var(--snow);
 }
@@ -56,7 +56,7 @@
 /* card component */
 
 .productCard {
-  background-color: var(--darc);
+  background-color: var(--blue-gray);
 }
 .productCard .btn {
   border-color: var(--snow);
