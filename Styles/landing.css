@@ -42,7 +42,7 @@
 
 .miniHero {
   transition: all 0.3s;
-  height: calc(12rem);
+  height: 12rem;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
