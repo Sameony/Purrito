@@ -1,8 +1,11 @@
 @import url("https://mirinda-mewi.netlify.app/styles/main.css");
+@import url(/Styles/products.css);
 @import url(/Styles/landing.css);
+@import url(/Styles/colors.css);
 * {
   box-sizing: border-box;
 }
+/* Navigation */
 .navBar {
   background-color: var(--darc);
   color: var(--snow);
@@ -26,4 +29,19 @@
 }
 .searchBox {
   width: 80%;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--snow);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gray);
 }

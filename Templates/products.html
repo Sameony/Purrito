@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Purritos</title>
+    <link rel="stylesheet" href="/Styles/main.css">
+    <script src="https://kit.fontawesome.com/c61125ee40.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navBar shadows">
+        <h1 class="pd-x-md mg-x-md fs-xxl">Purritos</h1>
+        <div class="boxInput pd-sm">
+            <label for="name" class="mg-x-sm fs-lg"><i class="fa-solid fa-magnifying-glass"></i></label>
+            <input type="text" id="name" class="searchBox pd-sm">
+        </div>
+
+        <div class="rightNav">
+            <div class="badgeWrap mg-md">
+                <div class="fs-xl fas fa-shopping-cart"></div>
+                <div class="fs-sm badge badgeTopRight badgeRed">2
+                </div>
+            </div>
+            <div class="badgeWrap mg-md">
+                <div class="fs-xl fa-solid fa-heart"></div>
+                <div class="fs-sm badge badgeTopRight badgeRed">9+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="pageContainer">
+        <aside class="filters">
+            <div class="filterHead">
+                <h2>Filters</h2>
+                <h4 class="btn btn-link-dot">Clear</h4>
+            </div>
+            <div class="priceSlide">
+                <h3>Price</h3>
+                <input type="range" min="999" max="49999" value="4500" class="slider mg-sm" id="myRange">
+            </div>
+            <div class="mg-y-md">
+                <h3>Category</h3>
+                <input type="checkbox" class="mg-sm" name="shopping" id="RedBurrito">
+                <label for="RedBurrito">Red Blankets</label> <br>
+                <input type="checkbox" class="mg-sm" name="shopping" id="whiteBurrito">
+                <label for="whiteBurrito">White Blankets</label> <br>
+                <input type="checkbox" class="mg-sm" name="shopping" id="BlackBurrito">
+                <label for="BlackBurrito">Black Blankets</label> <br>
+            </div>
+            <div class="mg-y-md">
+                <h3>Ratings</h3>
+                <input class="mg-sm" type="radio" name="Ratings" id="fourStar">
+                <label for="fourStar">4 <i class="fa-solid fa-star"></i> and up</label> <br>
+                <input class="mg-sm" type="radio" name="Ratings" id="threeStar">
+                <label for="threeStar">3 <i class="fa-solid fa-star"></i> and up</label> <br>
+                <input class="mg-sm" type="radio" name="Ratings" id="twoStar">
+                <label for="twoStar">2 <i class="fa-solid fa-star"></i> and up</label> <br>
+                <input class="mg-sm" type="radio" name="Ratings" id="oneStar">
+                <label for="oneStar">1 &nbsp;<i class="fa-solid fa-star"></i> and up</label> <br>
+            </div>
+            <div class="mg-y-md">
+                <h3>Sort By</h3>
+                <input class="mg-sm" type="radio" name="sortby" id="sortByPrice">
+                <label for="sortByPrice">Price</label> <br>
+                <input class="mg-sm" type="radio" name="sortby" id="sortByRating">
+                <label for="sortByRating">Ratings</label> <br>
+            </div>
+        </aside>
+        <div class="pageContent pd-md">
+            <div class="productCard pd-sm mg-sm">
+                <img src="/Assets/Images/kyotAsleep.jpg" alt="red blanket for a cat">
+                <div class="cardContent">
+                    <div class="priceContainer mg-y-sm pd-sm">
+                        <h4 class="cardHead">White Blanket</h4>
+                        <div class="productPrice fw-xxl">Rs. 8999
+                            <strike class="fs-sm">Rs.14400</strike>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="filterHead">
+                    <button class="btn btn-success mg-y-sm"><i class="fas fa-shopping-cart mg-r-sm"></i>Add to
+                        Cart</button>
+                    <button class="btn btn-primary mg-y-sm"><i class="fas fa-heart mg-r-sm"></i> Wishlist</button>
+                </div>
+
+            </div>
+            <div class="productCard pd-sm mg-sm">
+                <img src="/Assets/Images/kyotAsleep.jpg" alt="red blanket for a cat">
+                <div class="cardContent">
+                    <div class="priceContainer mg-y-sm pd-sm">
+                        <h4 class="cardHead">White Blanket</h4>
+                        <div class="productPrice fw-xxl">Rs. 8999
+                            <strike class="fs-sm">Rs.14400</strike>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="filterHead">
+                    <button class="btn btn-success mg-y-sm"><i class="fas fa-shopping-cart mg-r-sm"></i>Add to
+                        Cart</button>
+                    <button class="btn btn-primary mg-y-sm"><i class="fas fa-heart mg-r-sm"></i> Wishlist</button>
+                </div>
+
+            </div>
+            <div class="productCard pd-sm mg-sm">
+                <img src="/Assets/Images/kyotAsleep.jpg" alt="red blanket for a cat">
+                <div class="cardContent">
+                    <div class="priceContainer mg-y-sm pd-sm">
+                        <h4 class="cardHead">White Blanket</h4>
+                        <div class="productPrice fw-xxl">Rs. 8999
+                            <strike class="fs-sm">Rs.14400</strike>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="filterHead">
+                    <button class="btn btn-success mg-y-sm"><i class="fas fa-shopping-cart mg-r-sm"></i>Add to
+                        Cart</button>
+                    <button class="btn btn-primary mg-y-sm"><i class="fas fa-heart mg-r-sm"></i> Wishlist</button>
+                </div>
+
+            </div>
+            <div class="productCard pd-sm mg-sm">
+                <img src="/Assets/Images/kyotAsleep2.jpg" alt="red blanket for a cat">
+                <div class="cardContent">
+                    <div class="priceContainer mg-y-sm pd-sm">
+                        <h4 class="cardHead">Checkered Blanket</h4>
+                        <div class="productPrice fw-xxl">Rs. 8999
+                            <strike class="fs-sm">Rs.14400</strike>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="filterHead">
+                    <button class="btn btn-success mg-y-sm"><i class="fas fa-shopping-cart mg-r-sm"></i>Add to
+                        Cart</button>
+                    <button class="btn btn-primary mg-y-sm"><i class="fas fa-heart mg-r-sm"></i> Wishlist</button>
+                </div>
+
+            </div>
+            <div class="productCard pd-sm mg-sm">
+                <img src="/Assets/Images/kyotAsleep2.jpg" alt="red blanket for a cat">
+                <div class="cardContent">
+                    <div class="priceContainer mg-y-sm pd-sm">
+                        <h4 class="cardHead">Checkered Blanket</h4>
+                        <div class="productPrice fw-xxl">Rs. 8999
+                            <strike class="fs-sm">Rs.14400</strike>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="filterHead">
+                    <button class="btn btn-success mg-y-sm"><i class="fas fa-shopping-cart mg-r-sm"></i>Add to
+                        Cart</button>
+                    <button class="btn btn-primary mg-y-sm"><i class="fas fa-heart mg-r-sm"></i> Wishlist</button>
+                </div>
+
+            </div>
+            <div class="productCard pd-sm mg-sm">
+                <img src="/Assets/Images/kyotAsleep2.jpg" alt="red blanket for a cat">
+                <div class="cardContent">
+                    <div class="priceContainer mg-y-sm pd-sm">
+                        <h4 class="cardHead">Checkered Blanket</h4>
+                        <div class="productPrice fw-xxl">Rs. 8999
+                            <strike class="fs-sm">Rs.14400</strike>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="filterHead">
+                    <button class="btn btn-success mg-y-sm"><i class="fas fa-shopping-cart mg-r-sm"></i>Add to
+                        Cart</button>
+                    <button class="btn btn-primary mg-y-sm"><i class="fas fa-heart mg-r-sm"></i> Wishlist</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
