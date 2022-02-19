@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishlist</title>
+    <link rel="stylesheet" href="/Styles/main.css">
+    <script src="https://kit.fontawesome.com/c61125ee40.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navBar shadows">
+        <h1 class="pd-x-md mg-x-md fs-xxl">Purritos</h1>
+        <div class="boxInput pd-sm">
+            <label for="name" class="mg-x-sm fs-lg"><i class="fa-solid fa-magnifying-glass"></i></label>
+            <input type="text" id="name" class="searchBox pd-sm">
+        </div>
+
+        <div class="rightNav">
+            <div class="badgeWrap mg-md">
+                <div class="fs-xl fas fa-shopping-cart"></div>
+                <div class="fs-sm badge badgeTopRight badgeRed">2
+                </div>
+            </div>
+            <div class="badgeWrap mg-md">
+                <div class="fs-xl fa-solid fa-heart"></div>
+                <div class="fs-sm badge badgeTopRight badgeRed">9+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="wishWrap">
+        <h1 class="textCenter mg-b-lg">My Wishlist</h1>
+        <div class="wishStrip textCenter mg-y-md">
+            <h3>#</h3>
+            <h3>image</h3>
+            <h3>Product Name</h3>
+            <h3>Unit price</h3>
+            <h3>Actions</h3>
+        </div>
+        <div class="wishContainer textCenter">
+            <div class="wishStrip mg-y-md">
+                <h3>1</h3>
+                <div class="wishImg">
+                    <img src="/Assets/Images/kyotRedBlanky.jpg" alt="kyot cat">
+                </div>
+                <h3>Red blanket (does not include cat)</h3>
+                <h3>11999</h3>
+                <div class="wishActionButtons pd-r-sm">
+                    <button class="btn btn-success mg-y-sm"><i class="fas fa-shopping-cart mg-r-sm"></i>Add to
+                        Cart</button>
+                    <button class="btn btn-caution mg-y-sm"><i class="fas fa-trash mg-r-sm"></i>Delete</button>
+                </div>
+            </div>
+        </div>
+        <div class="wishContainer textCenter">
+            <div class="wishStrip mg-y-md">
+                <h3>2</h3>
+                <div class="wishImg">
+                    <img src="/Assets/Images/kyotComfy.jpg" alt="kyot cat">
+                </div>
+                <h3>white soft blanket</h3>
+                <h3>9899</h3>
+                <div class="wishActionButtons pd-r-sm">
+                    <button class="btn btn-success mg-y-sm"><i class="fas fa-shopping-cart mg-r-sm"></i>Add to
+                        Cart</button>
+                    <button class="btn btn-caution mg-y-sm"><i class="fas fa-trash mg-r-sm"></i>Delete</button>
+                </div>
+            </div>
+        </div>
+        <div class="wishContainer textCenter">
+            <div class="wishStrip mg-y-md">
+                <h3>3</h3>
+                <div class="wishImg">
+                    <img src="/Assets/Images/kyotHugCat.jpg" alt="kyot cat">
+                </div>
+                <h3>A sweater which has touched the cat</h3>
+                <h3>13500</h3>
+                <div class="wishActionButtons pd-r-sm ">
+                    <button class="btn btn-success mg-y-sm"><i class="fas fa-shopping-cart mg-r-sm"></i>Add to
+                        Cart</button>
+                    <button class="btn btn-caution mg-y-sm"><i class="fas fa-trash mg-r-sm"></i>Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
