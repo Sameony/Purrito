@@ -3,6 +3,8 @@
 @import url(/Styles/landing.css);
 @import url(/Styles/colors.css);
 @import url(/Styles/wishlist.css);
+@import url(/Styles/loginSignup.css);
+@import url(/Styles/utilities.css);
 * {
   box-sizing: border-box;
 }
