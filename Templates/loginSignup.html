@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Purritos!</title>
+    <link rel="stylesheet" href="/Styles/main.css">
+    <script src="https://kit.fontawesome.com/c61125ee40.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navBar shadows">
+        <a href="/index.html">
+            <h1 class="pd-x-md mg-x-md fs-xxl">Purritos</h1>
+        </a>
+        <div class="boxInput pd-sm">
+            <label for="name" class="mg-x-sm fs-lg"><i class="fa-solid fa-magnifying-glass"></i></label>
+            <input type="text" id="name" class="searchBox pd-sm">
+        </div>
+
+        <div class="rightNav">
+            <button class="btn btn-primary">Signup</button>
+            <div class="badgeWrap mg-md">
+                <div class="fs-xl fas fa-shopping-cart"></div>
+                <div class="fs-sm badge badgeTopRight badgeRed">2
+                </div>
+            </div>
+            <div class="badgeWrap mg-md">
+                <a href="/Templates/wishlist.html">
+                    <div class="fs-xl fa-solid fa-heart"></div>
+                </a>
+                <div class="fs-sm badge badgeTopRight badgeRed">9+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="formContainer">
+
+        <div class="row">
+
+            <!-- signup Here -->
+            <div class="half-wrapper align-items-center flex-col sign-up">
+                <div class="form-wrapper align-items-center">
+                    <div class="form sign-up">
+                        <div class="contentInput">
+                            <div class="boxInput mg-y-sm">
+                                <input type="text" class="itemInput" placeholder="Username">
+                            </div>
+                            <div class="boxInput mg-y-sm">
+                                <input type="email" id="email" class="itemInput" placeholder="Email">
+                            </div>
+                            <div class="boxInput mg-b-sm">
+                                <input type="password" class="itemInput" placeholder="Password">
+                            </div>
+                            <div class="boxInput mg-b-sm">
+                                <input type="password" class="itemInput" placeholder="Confirm Password">
+                            </div>
+                        </div class="mg-md">
+                        <button class="btn btn-primary">
+                            Sign up
+                        </button>
+                        <div class="mg-md">
+                            Already have an account?
+                            <div class="pointer prim-color">
+                                Sign in here
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- sign in here -->
+            <div class="half-wrapper align-items-center flex-col sign-in">
+                <div class="form-wrapper align-items-center">
+                    <div class="form sign-in">
+                        <div class="contentInput">
+                            <div class="boxInput mg-y-sm">
+                                <input type="text" class="itemInput" placeholder="Username">
+                            </div>
+                            <div class="boxInput mg-b-sm">
+                                <input type="password" class="itemInput" placeholder="Password">
+                            </div>
+                        </div>
+                        <button class="btn btn-primary">
+                            Sign in
+                        </button>
+                        <div class="mg-md">
+                            Forgot password?
+                        </div>
+                        <div class="mg-md">
+                            Don't have an account?
+                            <div class="pointer prim-color">
+                                Sign up here
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- welcome msgs -->
+        <div class="row content-row">
+            <!-- SIGN IN -->
+            <div class="half-wrapper align-items-center flex-col">
+                <div class="offPageContent sign-in">
+                    <h1>
+                        Welcome back!
+                    </h1>
+                </div>
+                <div class="img sign-in">
+                    <img src="/Assets/Images/kyotHugCat.jpg" alt="">
+                </div>
+            </div>
+            <!-- Sign up -->
+            <div class="half-wrapper align-items-center flex-col">
+                <div class="img sign-up">
+                    <img src="/Assets/Images/kyotComfy.jpg" alt="">
+                </div>
+                <div class="offPageContent sign-up">
+                    <h1>
+                        Join our family!
+                    </h1>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="/Scripts/loginSignup.js"></script>
+</body>
+
+</html>

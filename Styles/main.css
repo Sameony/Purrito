@@ -3,6 +3,9 @@
 @import url(/Styles/landing.css);
 @import url(/Styles/colors.css);
 @import url(/Styles/wishlist.css);
+@import url(/Styles/loginSignup.css);
+@import url(/Styles/utilities.css);
+
 * {
   box-sizing: border-box;
 }
@@ -14,6 +17,9 @@
   justify-content: space-between;
   align-items: center;
 }
+.navBar h1 {
+  cursor: pointer;
+}
 .navBar .badgeWrap {
   cursor: pointer;
 }
@@ -22,6 +28,9 @@
 }
 .rightNav .badgeWrap {
   padding: 0.2rem;
+}
+.rightNav .btn {
+  align-self: center;
 }
 .boxInput {
   width: 32rem;
