@@ -57,6 +57,8 @@
 
 .productCard {
   background-color: var(--blue-gray);
+  box-shadow: 0px 0px 8px 4px var(--lighter-gray),
+    0px 0px 2px 2px var(--lighter-gray);
 }
 .productCard .btn {
   border-color: var(--snow);
