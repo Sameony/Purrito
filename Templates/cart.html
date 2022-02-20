@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | Purritos</title>
+    <link rel="stylesheet" href="/Styles/main.css">
+    <script src="https://kit.fontawesome.com/c61125ee40.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navBar shadows">
+        <a href="/index.html">
+            <h1 class="pd-x-md mg-x-md fs-xxl">Purritos</h1>
+        </a>
+        <div class="boxInput pd-sm">
+            <label for="name" class="mg-x-sm fs-lg"><i class="fa-solid fa-magnifying-glass"></i></label>
+            <input type="text" id="name" class="searchBox pd-sm">
+        </div>
+
+        <div class="rightNav">
+            <button class="btn btn-primary">Signup</button>
+            <div class="badgeWrap mg-md">
+                <a href="/Templates/cart.html">
+                    <div class="fs-xl fas fa-shopping-cart"></div>
+                </a>
+                <div class="fs-sm badge badgeTopRight badgeRed">2
+                </div>
+            </div>
+            <div class="badgeWrap mg-md">
+                <a href="/Templates/wishlist.html">
+                    <div class="fs-xl fa-solid fa-heart"></div>
+                </a>
+                <div class="fs-sm badge badgeTopRight badgeRed">9+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="filters">
+        <h1 class="textCenter mg-b-lg">My Cart</h1>
+        <div class="cartPage">
+            <div class="cartWrap mg-md">
+                <div class="cartContainer textCenter">
+                    <div class="cartStrip mg-y-md">
+                        <div class="cartImg align-items-center">
+                            <img src="/Assets/Images/kyotRedBlanky.jpg" alt="kyot cat">
+                        </div>
+                        <div class="cartDetails align-items-center flex-col">
+                            <h3>Red blanket</h3>
+                            <h3 class="fw-xl"><i class="fa-solid fa-indian-rupee-sign mg-r-sm"></i>11999</h3>
+                            <div class="cartQty">
+                                <button class="btn btn-primary">&nbsp;-&nbsp;</button>
+                                <input type="text" name="cartInput" value="2">
+                                <button class="btn btn-primary">+</button>
+                            </div>
+
+                            <div class="cartActionButtons pd-r-sm">
+
+                                <button class="btn btn-wishlist mg-y-sm"><i class="fas fa-heart mg-r-sm"></i>Add to
+                                    Wishlist</button>
+                                <button class="btn btn-primary mg-b-sm"><i class="fas fa-trash mg-r-sm"></i>Remove from
+                                    cart</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="cartStrip mg-y-md">
+                        <div class="cartImg align-items-center">
+                            <img src="/Assets/Images/kyotComfy.jpg" alt="kyot cat">
+                        </div>
+                        <div class="cartDetails align-items-center flex-col">
+                            <h3>White blanket</h3>
+                            <h3 class="fw-xl"><i class="fa-solid fa-indian-rupee-sign mg-r-sm"></i>11999</h3>
+                            <div class="cartQty">
+                                <button class="btn btn-primary">&nbsp;-&nbsp;</button>
+                                <input type="text" name="cartInput" value="2">
+                                <button class="btn btn-primary">+</button>
+                            </div>
+
+                            <div class="cartActionButtons pd-r-sm">
+
+                                <button class="btn btn-wishlist mg-y-sm"><i class="fas fa-heart mg-r-sm"></i>Add to
+                                    Wishlist</button>
+                                <button class="btn btn-primary mg-b-sm"><i class="fas fa-trash mg-r-sm"></i>Remove from
+                                    cart</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="cartStrip mg-y-md">
+                        <div class="cartImg align-items-center">
+                            <img src="/Assets/Images/kyotHugCat.jpg" alt="kyot cat">
+                        </div>
+                        <div class="cartDetails align-items-center flex-col">
+                            <h3>White sweater-y blanket</h3>
+                            <h3 class="fw-xl"><i class="fa-solid fa-indian-rupee-sign mg-r-sm"></i>11999</h3>
+                            <div class="cartQty">
+                                <button class="btn btn-primary">&nbsp;-&nbsp;</button>
+                                <input type="text" name="cartInput" value="2">
+                                <button class="btn btn-primary">+</button>
+                            </div>
+
+                            <div class="cartActionButtons pd-r-sm">
+
+                                <button class="btn btn-wishlist mg-y-sm"><i class="fas fa-heart mg-r-sm"></i>Add to
+                                    Wishlist</button>
+                                <button class="btn btn-primary mg-b-sm"><i class="fas fa-trash mg-r-sm"></i>Remove from
+                                    cart</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="checkout pd-md align-middle textCenter mg-md">
+                <h2 class="fs-xl">Price Details</h2>
+                <hr>
+                <div class="pd-sm flex mg-y-md flex-spc-btw">
+                    <p class="fs-lg">Total Price (3 items)</p>
+                    <p class="fs-lg"><i class="fa-solid fa-indian-rupee-sign"></i>16999</p>
+                </div>
+                <div class="pd-sm flex mg-y-md flex-spc-btw">
+                    <p class="fs-lg">Promo-Code:</p>
+                    <p class="fs-lg">firstMeow60</p>
+                </div>
+                <div class="pd-sm flex mg-y-md  flex-spc-btw">
+                    <p class="fs-lg">Discount</p>
+                    <p class="fs-lg"><i class="fa-solid fa-indian-rupee-sign"></i>2999</p>
+                </div>
+                <div class="pd-sm flex mg-y-md  flex-spc-btw">
+                    <p class="fs-lg">Delivery Charges</p>
+                    <p class="fs-lg"><i class="fa-solid fa-indian-rupee-sign"></i>500</p>
+                </div>
+                <hr>
+                <div class="pd-sm flex mg-y-md  flex-spc-btw">
+                    <p class="fs-lg">Total Amount</p>
+                    <p class="fs-lg"><i class="fa-solid fa-indian-rupee-sign"></i>14599</p>
+                </div>
+                <button class="btn btn-success">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
