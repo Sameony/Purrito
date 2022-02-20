@@ -5,6 +5,7 @@
 @import url(/Styles/wishlist.css);
 @import url(/Styles/loginSignup.css);
 @import url(/Styles/utilities.css);
+@import url(/Styles/cart.css);
 
 * {
   box-sizing: border-box;

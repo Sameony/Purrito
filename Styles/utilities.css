@@ -1,3 +1,15 @@
+.flex {
+  display: flex;
+}
+.flex-spc-btw {
+  justify-content: space-between;
+}
+.flex-spc-arnd {
+  justify-content: space-around;
+}
+.align-middle {
+  align-items: center;
+}
 .align-items-center {
   display: flex;
   align-items: center;
