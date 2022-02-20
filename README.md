@@ -20,6 +20,7 @@
 - Features
     - Landing page
     - Login/signup Page
+    - Product display page
     - myCart page
     - myWishlist page
 
