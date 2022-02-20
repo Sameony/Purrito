@@ -58,10 +58,7 @@
   overflow: hidden;
 }
 .cartActionButtons {
-  display: flex;
-  flex-direction: column;
   width: 100%;
-  justify-content: space-around;
 }
 .cartActionButtons .btn-primary {
   background-color: var(--slight-gray);
