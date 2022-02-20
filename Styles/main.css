@@ -38,6 +38,15 @@
   display: flex;
   align-items: center;
 }
+.navBar .btn {
+  background-color: var(--light-gray);
+  border-color: var(--light-gray);
+  color: var(--darc);
+}
+.navBar .btn:hover {
+  background-color: var(--lighter-gray);
+  border-color: var(--lighter-gray);
+}
 .searchBox {
   width: 80%;
 }
