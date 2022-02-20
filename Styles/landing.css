@@ -1,5 +1,5 @@
 .landingWrapper {
-  height: calc(100vh - 5.2rem);
+  height: calc(100vh - 4.8rem);
   background-color: var(--darc);
   color: var(--snow);
 }
@@ -47,16 +47,21 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.m1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(/Assets/Images/kyotComfy.jpg);
 }
-
+.m2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/Assets/Images/kyotRedBlanky.jpg);
+}
 .miniHero p {
   font-size: 0.6rem;
 }
 .miniHero .btn {
   font-size: 0.7rem;
-  padding: 0.3rem 0.5rem;
+  padding: 0.4rem 0.5rem;
 }
 .miniHero:hover {
   box-shadow: 0px 0px 8px 4px var(--slight-gray),
